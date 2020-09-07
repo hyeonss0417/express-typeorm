@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { getManager } from "typeorm";
-import { Post } from "../../entity/Post/Post";
+import { Post } from "../entity/Post";
 
 export async function postSaveAction(req: Request, res: Response) {
   const postRepository = getManager().getRepository(Post);

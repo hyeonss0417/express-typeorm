@@ -1,6 +1,6 @@
-import { postGetAllAction } from "./api/controller/PostGetAllAction";
-import { postGetByIdAction } from "./api/controller/PostGetByIdAction";
-import { postSaveAction } from "./api/controller/PostSaveAction";
+import { postGetAllAction } from "./controllers/PostGetAllAction";
+import { postGetByIdAction } from "./controllers/PostGetByIdAction";
+import { postSaveAction } from "./controllers/PostSaveAction";
 import { Router, Request, Response, NextFunction } from "express";
 
 const router = Router();

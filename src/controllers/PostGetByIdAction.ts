@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction, response } from "express";
 import { getManager } from "typeorm";
-import { Post } from "../../entity/Post/Post";
-import { CustomError } from "../../utils/CustomError";
+import { Post } from "../entity/Post";
+import { CustomError } from "../utils/CustomError";
 
 export async function postGetByIdAction(
   req: Request,
