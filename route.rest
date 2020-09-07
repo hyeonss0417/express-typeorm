@@ -1,0 +1,38 @@
+POST http://localhost:3030/posts
+Content-Type: application/json
+
+{
+    "title": "First Post!!",
+    "text": "Hello world!"
+}
+###
+GET http://localhost:3030/
+Content-Type: application/json
+
+###
+GET http://localhost:3030/error
+Content-Type: application/json
+
+###
+GET http://localhost:3030/posts/3
+Content-Type: application/json
+
+###
+GET http://localhost:3030/posts
+Content-Type: application/json
+
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "url": "ww.naver.com/"
+}
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "url": "://www.google.co.kr/"
+}
+
